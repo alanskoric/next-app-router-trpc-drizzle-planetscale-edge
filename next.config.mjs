@@ -7,6 +7,10 @@
 /** @type {import("next").NextConfig} */
 const config = {
   reactStrictMode: true,
-  experimental: { appDir: true, typedRoutes: true },
+  experimental: {
+    appDir: true,
+    typedRoutes: true,
+    serverComponentsExternalPackages: ["mysql2"],
+  },
 };
 export default config;

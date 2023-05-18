@@ -1,0 +1,9 @@
+{
+  "$schema": "https://wixplosives.github.io/codux-config-schema/codux.config.schema.json",
+  "previewConfiguration": {
+    "environmentVariables": {
+      "NEXT_PUBLIC_APP_URL": "http://localhost:3000",
+      "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_Z3Jvd2luZy1zdW5maXNoLTUuY2xlcmsuYWNjb3VudHMuZGV2JA"
+    }
+  }
+}

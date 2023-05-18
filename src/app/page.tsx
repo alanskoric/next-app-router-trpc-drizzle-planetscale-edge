@@ -102,7 +102,7 @@ export default async function Page() {
           <pre className="bg-stone-50 rounded mb-5 text-stone-900 dark:bg-opacity-90 overflow-auto">
             {`
   import { api } from "~/lib/api/server";
-  
+
   export default async function ServerComponent() {
     const data = await api.route.stuff.fetch();
   }
@@ -120,7 +120,7 @@ export default async function Page() {
   "use client";
 
   import { api } from "~/lib/api/client";
-  
+
   export default function ClientComponent() {
     const { data, isLoading } = await api.route.stuff.useQuery();
   }
@@ -174,5 +174,5 @@ export default async function Page() {
   );
 }
 
-export const runtime = "experimental-edge";
+export const runtime = "edge";
 export const revalidate = 0;
